@@ -1,0 +1,98 @@
+/* Section Hero */
+.heroImage {
+  background-image: url('https://moula.com.au/wp-content/uploads/2021/08/HumanResources_1170x536jpg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.textContainer {
+  border: 0px solid #FF0000;
+  display: flex;
+  justify-content: center;
+}
+
+.headerText {
+  font-size: 5vw;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue
+}
+
+.subText {
+  font-size: 1em;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: azure
+}
+
+.image-slider-container {
+  height: 15em;
+}
+
+.carousel .slide img {
+  max-height: 15em;
+  width: auto;
+}
+
+.bg-body-tertiary {
+  background-color: #FF0000;
+}
+
+/* Login */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.form-control::placeholder {
+  color: '#A9A9A9';
+  opacity: 0.6;
+}
+
+@media (min-width: 576px) {
+  .image-slider-container {
+    height: 15em;
+  }
+
+  .carousel .slide img {
+    max-height: 20em;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-slider-container {
+    height: 25em;
+  }
+
+  .carousel .slide img {
+    max-height: 70em;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-slider-container {
+    height: 30em;
+  }
+
+  .carousel .slide img {
+    max-height: 30em;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-slider-container {
+    height: 50em;
+  }
+
+  .carousel .slide img {
+    max-height: 60em;
+    width: auto;
+  }
+}
